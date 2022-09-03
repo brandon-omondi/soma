@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;1,500&family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+/* ------------------------------------------------------------ */
+
+
+.hero-landing{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%; 
+}
+
+    /* Navbar starts here */
+   
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    /* background-color: black; */
+    
+}
+
+nav{
+    display: flex;
+    /* background-color: antiquewhite; */
+    width: 25%;
+    justify-content: center;
+    
+}
+ul{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    align-items: space-between;
+    
+}
+nav ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    
+}
+/* End of Navbar */
+
+   
+
+    /* Container Starts */
+
+.landing-container{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+.landing-left{
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    width: 45%;
+    height: 100%;
+    /* margin-top: 50px; */
+    margin-left: 30px;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* background-color: #93f9a2; */
+}
+.landing-left-txt{
+    width: 100%;
+    /* background-color: #ffffff; */
+}
+.big-txt{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: #466AE7;
+    margin-bottom: 8px;
+    /* background-color: aqua; */
+}
+.small-txt{
+    padding-top: 0%;
+    line-height: 84px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 84px;
+    margin-bottom: 30px;
+    /* background-color: rgb(99, 9, 123); */
+}
+.landing-left-btns{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 40px;
+    /* background-color: brown; */
+    justify-content: space-between;
+    /* color: #3355CA; */
+}
+.log-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 16px 28px; */
+    /* gap: 10px; */
+    width: 45%;
+    margin-left: 10px;
+
+    background: #3355CA;
+    border: 15px solid #3355CA;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 20px;
+}
+.sign-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 16px 28px; */
+    /* gap: 10px; */
+    width: 45%;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+
+    background: #3355CA;
+    border: 15px solid #3355CA;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 20px;
+}
+.btn-txt{
+    width: 69px;
+    height: 28px;
+
+    /* text-lg/Medium */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #F0FDF4;
+}
+.landing-left-digits{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    /* align-self: flex-start; */
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+
+    /* ---Figma---- */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #3355CA;
+
+    
+
+text-align: center;
+letter-spacing: -0.02em;
+}
+.landing-left-final-txt{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: rgb(36, 60, 145); */
+    /* align-self: flex-start; */
+    justify-content: space-between;
+
+    /* ---Figma--- */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    color: #556987;
+}
+.learners{
+    margin-right: 40px;
+}
+
+/* Left Column Ends here */
+
+/* Right Column starts here */
+.landing-right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+    max-height: 730px;
+    /* height: 100%; */
+}
+.fg-img{
+    max-width: 100%;
+    max-height: 80%;
+    /* height: auto; */
+}
